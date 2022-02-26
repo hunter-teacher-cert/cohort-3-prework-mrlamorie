@@ -1,5 +1,5 @@
 
-Pre 03 
+Prework 03 
 Exercise 1:
 1.1:
 
@@ -12,7 +12,7 @@ I wug.
 I am a bit confused by this. Stack diagrams show the state of variables, and there
 are none. Unless you want a Stack diagramin showing there is no value for args, which would be:
 
-main [ args = none]
+main [ args  [none] ]
 
 If the question is asking for us to use the notation to show what the output of each function would be then it would be something like:
 
