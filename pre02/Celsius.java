@@ -9,7 +9,7 @@ public class Celsius {
     double fTemp, cTemp; // yay mulidec
     Scanner in = new Scanner(System.in);
     
-    System.out.println("Please enter a Celsius temperature: ");
+    System.out.print("Please enter a Celsius temperature: ");
     cTemp = in.nextDouble();
     fTemp = (cTemp * (9.0/5.0)) + 32;
     System.out.printf("%.1f C = %.1f F\n", cTemp, fTemp);
