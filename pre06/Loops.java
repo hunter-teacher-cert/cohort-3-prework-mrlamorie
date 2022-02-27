@@ -16,12 +16,26 @@ public class Loops{
     }
     return x1; // could be either I guess. 
   }
+
+  // Exercise 3
+  public static double power(double x, int n){
+    double retNum = 1;
+    for(int i = 1; i <= n; i ++){
+      retNum *= x;
+    }
+    return retNum;
+  }
+
   
   public static void main(String[] args) {
 
     System.out.println("Test of Exercise 2:");
     System.out.println(squareRoot(9));
 
+    System.out.println("Test of Exercise 3:");
+    System.out.println(power(5, 9));
+    System.out.println(power(0, 9));
+    System.out.println(power(0, 0));
     
   }
   
