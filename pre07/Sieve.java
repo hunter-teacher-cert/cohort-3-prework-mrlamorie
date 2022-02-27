@@ -16,7 +16,7 @@ public class Sieve {
     for (int i = 0; i < retarr.length; i++) {
       if(retarr[i] == true) { 
         int enu = i * i;
-        // there are more elegant solutions, but this follows the overview
+        // there are more elegant solutions, but this follows the overview on wiki
         while(enu < retarr.length){ 
           retarr[enu] = false;
           enu += i;
