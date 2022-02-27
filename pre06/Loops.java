@@ -26,6 +26,14 @@ public class Loops{
     return retNum;
   }
 
+  // Exercise 4
+  public static int factorial(int n){
+    
+    for(int i = n-1; i > 0; i-- ){
+      n *= i;  
+    }
+    return n;
+  }
   
   public static void main(String[] args) {
 
@@ -36,7 +44,10 @@ public class Loops{
     System.out.println(power(5, 9));
     System.out.println(power(0, 9));
     System.out.println(power(0, 0));
-    
+
+    System.out.println("Test of Exercise 4:");
+    System.out.println(factorial(5));
+
   }
   
 }
