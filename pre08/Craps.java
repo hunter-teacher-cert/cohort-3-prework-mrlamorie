@@ -11,11 +11,21 @@ public class Craps{
 
   }
 
+  // shoot - could really just be done with 1 arg and assuming d6, but hey
+  // you might play craps with a d12, I guess!
+  public static int shoot(int dice, int max){
+    int total = 0;
+    for(int i = 0; i < dice; i ++){
+      total += roll(max);
+    }
+    return total;
+  }
+
   public static void main(String[] args){
-    System.out.println(roll(6));
-    System.out.println(roll(6));
-    System.out.println(roll(6));
-    System.out.println(roll(6));
+    System.out.println(shoot(3,6));
+    System.out.println(shoot(3,6));
+    System.out.println(shoot(3,6));
+    System.out.println(shoot(3,6));
   }
 
   
